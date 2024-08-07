@@ -1,0 +1,3 @@
+C:/Users/USER/HK/Future work/build/CMakeFiles/thread_num.dir
+C:/Users/USER/HK/Future work/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/USER/HK/Future work/build/CMakeFiles/ZERO_CHECK.dir

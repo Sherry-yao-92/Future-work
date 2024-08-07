@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C/C++: cl.exe build active file with OpenCV",
+            "command": "cl.exe",
+            "args": [
+                "/Zi",
+                "/EHsc",
+                "/nologo",
+                "/Fe:",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "${file}",
+                "/I", "C:\\opencv\\build\\include",
+                "/link",
+                "/LIBPATH:C:\\opencv\\build\\x64\\vc16\\lib",
+                "opencv_world4100.lib"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "編譯器: cl.exe"
+        }
+    ]
+}

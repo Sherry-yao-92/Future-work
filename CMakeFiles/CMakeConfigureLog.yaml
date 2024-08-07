@@ -1,0 +1,508 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      .NET Framework ??MSBuild ? 17.10.4+10fbfbf2e
+      撌脩???撱箇蔭??2024/7/23 銝? 09:35:33??
+      
+      蝭\xc2\x80暺?1 (?身?格?) 銝?撠? "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\3.30.0\\CompilerIdC\\CompilerIdC.vcxproj"??
+      PrepareForBuild:
+        甇?撱箇??桅? "Debug\\"??
+        蝯??撓?箏歇??楊霅臬閮箸?撘?撠??隤日?撅扎\xc2\x80??\xc2\x80閰喟敦鞈?嚗?? https://aka.ms/cpp/structured-output??
+        甇?撱箇??桅? "Debug\\CompilerIdC.tlog\\"??
+      InitializeBuildStatus:
+        ?望??鈭?"AlwaysCreate"嚗?甇斗迤?典遣蝡?"Debug\\CompilerIdC.tlog\\unsuccessfulbuild"??
+        甇?霈???唾? "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"??
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\3.30.0\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        甇??芷瑼? "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"??
+        甇?霈???唾? "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate"??
+      撠? "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\3.30.0\\CompilerIdC\\CompilerIdC.vcxproj" (?身?格?) 撱箇蔭摰???
+      
+      撱箇蔭????
+          0 ?郎??
+          0 ?隤?
+      
+      蝬??? 00:00:00.99
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/USER/HK/opencv-c++/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      .NET Framework ??MSBuild ? 17.10.4+10fbfbf2e
+      撌脩???撱箇蔭??2024/7/23 銝? 09:35:34??
+      
+      蝭\xc2\x80暺?1 (?身?格?) 銝?撠? "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\3.30.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj"??
+      PrepareForBuild:
+        甇?撱箇??桅? "Debug\\"??
+        蝯??撓?箏歇??楊霅臬閮箸?撘?撠??隤日?撅扎\xc2\x80??\xc2\x80閰喟敦鞈?嚗?? https://aka.ms/cpp/structured-output??
+        甇?撱箇??桅? "Debug\\CompilerIdCXX.tlog\\"??
+      InitializeBuildStatus:
+        ?望??鈭?"AlwaysCreate"嚗?甇斗迤?典遣蝡?"Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"??
+        甇?霈???唾? "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"??
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\3.30.0\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        甇??芷瑼? "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"??
+        甇?霈???唾? "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate"??
+      撠? "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\3.30.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (?身?格?) 撱箇蔭摰???
+      
+      撱箇蔭????
+          0 ?郎??
+          0 ?隤?
+      
+      蝬??? 00:00:00.85
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/USER/HK/opencv-c++/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-qislfq"
+      binary: "C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-qislfq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-qislfq'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e2240.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        .NET Framework ??MSBuild ? 17.10.4+10fbfbf2e
+        撌脩???撱箇蔭??2024/7/23 銝? 09:35:35??
+        
+        蝭\xc2\x80暺?1 (?身?格?) 銝?撠? "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-qislfq\\cmTC_e2240.vcxproj"??
+        PrepareForBuild:
+          甇?撱箇??桅? "cmTC_e2240.dir\\Debug\\"??
+          蝯??撓?箏歇??楊霅臬閮箸?撘?撠??隤日?撅扎\xc2\x80??\xc2\x80閰喟敦鞈?嚗?? https://aka.ms/cpp/structured-output??
+          甇?撱箇??桅? "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-qislfq\\Debug\\"??
+          甇?撱箇??桅? "cmTC_e2240.dir\\Debug\\cmTC_e2240.tlog\\"??
+        InitializeBuildStatus:
+          ?望??鈭?"AlwaysCreate"嚗?甇斗迤?典遣蝡?"cmTC_e2240.dir\\Debug\\cmTC_e2240.tlog\\unsuccessfulbuild"??
+          甇?霈???唾? "cmTC_e2240.dir\\Debug\\cmTC_e2240.tlog\\unsuccessfulbuild"??
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e2240.dir\\Debug\\\\" /Fd"cmTC_e2240.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33812 for x64
+          Copyright (C) Microsoft Corporation.  ??甈???銝虫??????押\xc2\x80?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e2240.dir\\Debug\\\\" /Fd"cmTC_e2240.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-qislfq\\Debug\\cmTC_e2240.exe" /INCREMENTAL /ILK:"cmTC_e2240.dir\\Debug\\cmTC_e2240.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-qislfq/Debug/cmTC_e2240.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-qislfq/Debug/cmTC_e2240.lib" /MACHINE:X64  /machine:x64 cmTC_e2240.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_e2240.vcxproj -> C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-qislfq\\Debug\\cmTC_e2240.exe
+        FinalizeBuildStatus:
+          甇??芷瑼? "cmTC_e2240.dir\\Debug\\cmTC_e2240.tlog\\unsuccessfulbuild"??
+          甇?霈???唾? "cmTC_e2240.dir\\Debug\\cmTC_e2240.tlog\\cmTC_e2240.lastbuildstate"??
+        撠? "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-qislfq\\cmTC_e2240.vcxproj" (?身?格?) 撱箇蔭摰???
+        
+        撱箇蔭????
+            0 ?郎??
+            0 ?隤?
+        
+        蝬??? 00:00:00.68
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-fdc9y4"
+      binary: "C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-fdc9y4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-fdc9y4'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ccab7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        .NET Framework ??MSBuild ? 17.10.4+10fbfbf2e
+        撌脩???撱箇蔭??2024/7/23 銝? 09:35:36??
+        
+        蝭\xc2\x80暺?1 (?身?格?) 銝?撠? "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-fdc9y4\\cmTC_ccab7.vcxproj"??
+        PrepareForBuild:
+          甇?撱箇??桅? "cmTC_ccab7.dir\\Debug\\"??
+          蝯??撓?箏歇??楊霅臬閮箸?撘?撠??隤日?撅扎\xc2\x80??\xc2\x80閰喟敦鞈?嚗?? https://aka.ms/cpp/structured-output??
+          甇?撱箇??桅? "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-fdc9y4\\Debug\\"??
+          甇?撱箇??桅? "cmTC_ccab7.dir\\Debug\\cmTC_ccab7.tlog\\"??
+        InitializeBuildStatus:
+          ?望??鈭?"AlwaysCreate"嚗?甇斗迤?典遣蝡?"cmTC_ccab7.dir\\Debug\\cmTC_ccab7.tlog\\unsuccessfulbuild"??
+          甇?霈???唾? "cmTC_ccab7.dir\\Debug\\cmTC_ccab7.tlog\\unsuccessfulbuild"??
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ccab7.dir\\Debug\\\\" /Fd"cmTC_ccab7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33812 for x64
+          Copyright (C) Microsoft Corporation.  ??甈???銝虫??????押\xc2\x80?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ccab7.dir\\Debug\\\\" /Fd"cmTC_ccab7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-fdc9y4\\Debug\\cmTC_ccab7.exe" /INCREMENTAL /ILK:"cmTC_ccab7.dir\\Debug\\cmTC_ccab7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-fdc9y4/Debug/cmTC_ccab7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-fdc9y4/Debug/cmTC_ccab7.lib" /MACHINE:X64  /machine:x64 cmTC_ccab7.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_ccab7.vcxproj -> C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-fdc9y4\\Debug\\cmTC_ccab7.exe
+        FinalizeBuildStatus:
+          甇??芷瑼? "cmTC_ccab7.dir\\Debug\\cmTC_ccab7.tlog\\unsuccessfulbuild"??
+          甇?霈???唾? "cmTC_ccab7.dir\\Debug\\cmTC_ccab7.tlog\\cmTC_ccab7.lastbuildstate"??
+        撠? "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-fdc9y4\\cmTC_ccab7.vcxproj" (?身?格?) 撱箇蔭摰???
+        
+        撱箇蔭????
+            0 ?郎??
+            0 ?隤?
+        
+        蝬??? 00:00:00.75
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindOpenMP.cmake:238 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindOpenMP.cmake:506 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:30 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-4ikqst"
+      binary: "C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-4ikqst"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-4ikqst'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5bbb3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        .NET Framework ??MSBuild ? 17.10.4+10fbfbf2e
+        撌脩???撱箇蔭??2024/7/23 銝? 09:40:19??
+        
+        蝭\xc2\x80暺?1 (?身?格?) 銝?撠? "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-4ikqst\\cmTC_5bbb3.vcxproj"??
+        PrepareForBuild:
+          甇?撱箇??桅? "cmTC_5bbb3.dir\\Debug\\"??
+          蝯??撓?箏歇??楊霅臬閮箸?撘?撠??隤日?撅扎\xc2\x80??\xc2\x80閰喟敦鞈?嚗?? https://aka.ms/cpp/structured-output??
+          甇?撱箇??桅? "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-4ikqst\\Debug\\"??
+          甇?撱箇??桅? "cmTC_5bbb3.dir\\Debug\\cmTC_5bbb3.tlog\\"??
+        InitializeBuildStatus:
+          ?望??鈭?"AlwaysCreate"嚗?甇斗迤?典遣蝡?"cmTC_5bbb3.dir\\Debug\\cmTC_5bbb3.tlog\\unsuccessfulbuild"??
+          甇?霈???唾? "cmTC_5bbb3.dir\\Debug\\cmTC_5bbb3.tlog\\unsuccessfulbuild"??
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_5bbb3.dir\\Debug\\\\" /Fd"cmTC_5bbb3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-4ikqst\\OpenMPTryFlag.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33812 for x64
+          Copyright (C) Microsoft Corporation.  ??甈???銝虫??????押\xc2\x80?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_5bbb3.dir\\Debug\\\\" /Fd"cmTC_5bbb3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-4ikqst\\OpenMPTryFlag.c"
+          OpenMPTryFlag.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-4ikqst\\Debug\\cmTC_5bbb3.exe" /INCREMENTAL /ILK:"cmTC_5bbb3.dir\\Debug\\cmTC_5bbb3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-4ikqst/Debug/cmTC_5bbb3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-4ikqst/Debug/cmTC_5bbb3.lib" /MACHINE:X64  /machine:x64 cmTC_5bbb3.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_5bbb3.vcxproj -> C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-4ikqst\\Debug\\cmTC_5bbb3.exe
+        FinalizeBuildStatus:
+          甇??芷瑼? "cmTC_5bbb3.dir\\Debug\\cmTC_5bbb3.tlog\\unsuccessfulbuild"??
+          甇?霈???唾? "cmTC_5bbb3.dir\\Debug\\cmTC_5bbb3.tlog\\cmTC_5bbb3.lastbuildstate"??
+        撠? "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-4ikqst\\cmTC_5bbb3.vcxproj" (?身?格?) 撱箇蔭摰???
+        
+        撱箇蔭????
+            0 ?郎??
+            0 ?隤?
+        
+        蝬??? 00:00:01.14
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindOpenMP.cmake:238 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindOpenMP.cmake:506 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:30 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-dxmg3j"
+      binary: "C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-dxmg3j"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-dxmg3j'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9aded.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        .NET Framework ??MSBuild ? 17.10.4+10fbfbf2e
+        撌脩???撱箇蔭??2024/7/23 銝? 09:40:20??
+        
+        蝭\xc2\x80暺?1 (?身?格?) 銝?撠? "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-dxmg3j\\cmTC_9aded.vcxproj"??
+        PrepareForBuild:
+          甇?撱箇??桅? "cmTC_9aded.dir\\Debug\\"??
+          蝯??撓?箏歇??楊霅臬閮箸?撘?撠??隤日?撅扎\xc2\x80??\xc2\x80閰喟敦鞈?嚗?? https://aka.ms/cpp/structured-output??
+          甇?撱箇??桅? "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-dxmg3j\\Debug\\"??
+          甇?撱箇??桅? "cmTC_9aded.dir\\Debug\\cmTC_9aded.tlog\\"??
+        InitializeBuildStatus:
+          ?望??鈭?"AlwaysCreate"嚗?甇斗迤?典遣蝡?"cmTC_9aded.dir\\Debug\\cmTC_9aded.tlog\\unsuccessfulbuild"??
+          甇?霈???唾? "cmTC_9aded.dir\\Debug\\cmTC_9aded.tlog\\unsuccessfulbuild"??
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /std:c++17 /Fo"cmTC_9aded.dir\\Debug\\\\" /Fd"cmTC_9aded.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-dxmg3j\\OpenMPTryFlag.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33812 for x64
+          Copyright (C) Microsoft Corporation.  ??甈???銝虫??????押\xc2\x80?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /std:c++17 /Fo"cmTC_9aded.dir\\Debug\\\\" /Fd"cmTC_9aded.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-dxmg3j\\OpenMPTryFlag.cpp"
+          OpenMPTryFlag.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-dxmg3j\\Debug\\cmTC_9aded.exe" /INCREMENTAL /ILK:"cmTC_9aded.dir\\Debug\\cmTC_9aded.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-dxmg3j/Debug/cmTC_9aded.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-dxmg3j/Debug/cmTC_9aded.lib" /MACHINE:X64  /machine:x64 cmTC_9aded.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_9aded.vcxproj -> C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-dxmg3j\\Debug\\cmTC_9aded.exe
+        FinalizeBuildStatus:
+          甇??芷瑼? "cmTC_9aded.dir\\Debug\\cmTC_9aded.tlog\\unsuccessfulbuild"??
+          甇?霈???唾? "cmTC_9aded.dir\\Debug\\cmTC_9aded.tlog\\cmTC_9aded.lastbuildstate"??
+        撠? "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-dxmg3j\\cmTC_9aded.vcxproj" (?身?格?) 撱箇蔭摰???
+        
+        撱箇蔭????
+            0 ?郎??
+            0 ?隤?
+        
+        蝬??? 00:00:00.97
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:30 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-zjkrwf"
+      binary: "C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-zjkrwf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-zjkrwf'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_92c3a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        .NET Framework ??MSBuild ? 17.10.4+10fbfbf2e
+        撌脩???撱箇蔭??2024/7/23 銝? 09:40:22??
+        
+        蝭\xc2\x80暺?1 (?身?格?) 銝?撠? "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-zjkrwf\\cmTC_92c3a.vcxproj"??
+        PrepareForBuild:
+          甇?撱箇??桅? "cmTC_92c3a.dir\\Debug\\"??
+          蝯??撓?箏歇??楊霅臬閮箸?撘?撠??隤日?撅扎\xc2\x80??\xc2\x80閰喟敦鞈?嚗?? https://aka.ms/cpp/structured-output??
+          甇?撱箇??桅? "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-zjkrwf\\Debug\\"??
+          甇?撱箇??桅? "cmTC_92c3a.dir\\Debug\\cmTC_92c3a.tlog\\"??
+        InitializeBuildStatus:
+          ?望??鈭?"AlwaysCreate"嚗?甇斗迤?典遣蝡?"cmTC_92c3a.dir\\Debug\\cmTC_92c3a.tlog\\unsuccessfulbuild"??
+          甇?霈???唾? "cmTC_92c3a.dir\\Debug\\cmTC_92c3a.tlog\\unsuccessfulbuild"??
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_92c3a.dir\\Debug\\\\" /Fd"cmTC_92c3a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-zjkrwf\\OpenMPCheckVersion.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33812 for x64
+          Copyright (C) Microsoft Corporation.  ??甈???銝虫??????押\xc2\x80?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_92c3a.dir\\Debug\\\\" /Fd"cmTC_92c3a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-zjkrwf\\OpenMPCheckVersion.c"
+          OpenMPCheckVersion.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-zjkrwf\\Debug\\cmTC_92c3a.exe" /INCREMENTAL /ILK:"cmTC_92c3a.dir\\Debug\\cmTC_92c3a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-zjkrwf/Debug/cmTC_92c3a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-zjkrwf/Debug/cmTC_92c3a.lib" /MACHINE:X64  /machine:x64 cmTC_92c3a.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_92c3a.vcxproj -> C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-zjkrwf\\Debug\\cmTC_92c3a.exe
+        FinalizeBuildStatus:
+          甇??芷瑼? "cmTC_92c3a.dir\\Debug\\cmTC_92c3a.tlog\\unsuccessfulbuild"??
+          甇?霈???唾? "cmTC_92c3a.dir\\Debug\\cmTC_92c3a.tlog\\cmTC_92c3a.lastbuildstate"??
+        撠? "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-zjkrwf\\cmTC_92c3a.vcxproj" (?身?格?) 撱箇蔭摰???
+        
+        撱箇蔭????
+            0 ?郎??
+            0 ?隤?
+        
+        蝬??? 00:00:00.77
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:30 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-cxle0v"
+      binary: "C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-cxle0v"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-cxle0v'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c69d1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        .NET Framework ??MSBuild ? 17.10.4+10fbfbf2e
+        撌脩???撱箇蔭??2024/7/23 銝? 09:40:23??
+        
+        蝭\xc2\x80暺?1 (?身?格?) 銝?撠? "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-cxle0v\\cmTC_c69d1.vcxproj"??
+        PrepareForBuild:
+          甇?撱箇??桅? "cmTC_c69d1.dir\\Debug\\"??
+          蝯??撓?箏歇??楊霅臬閮箸?撘?撠??隤日?撅扎\xc2\x80??\xc2\x80閰喟敦鞈?嚗?? https://aka.ms/cpp/structured-output??
+          甇?撱箇??桅? "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-cxle0v\\Debug\\"??
+          甇?撱箇??桅? "cmTC_c69d1.dir\\Debug\\cmTC_c69d1.tlog\\"??
+        InitializeBuildStatus:
+          ?望??鈭?"AlwaysCreate"嚗?甇斗迤?典遣蝡?"cmTC_c69d1.dir\\Debug\\cmTC_c69d1.tlog\\unsuccessfulbuild"??
+          甇?霈???唾? "cmTC_c69d1.dir\\Debug\\cmTC_c69d1.tlog\\unsuccessfulbuild"??
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /std:c++17 /Fo"cmTC_c69d1.dir\\Debug\\\\" /Fd"cmTC_c69d1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-cxle0v\\OpenMPCheckVersion.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33812 for x64
+          Copyright (C) Microsoft Corporation.  ??甈???銝虫??????押\xc2\x80?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /std:c++17 /Fo"cmTC_c69d1.dir\\Debug\\\\" /Fd"cmTC_c69d1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-cxle0v\\OpenMPCheckVersion.cpp"
+          OpenMPCheckVersion.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-cxle0v\\Debug\\cmTC_c69d1.exe" /INCREMENTAL /ILK:"cmTC_c69d1.dir\\Debug\\cmTC_c69d1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-cxle0v/Debug/cmTC_c69d1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/HK/opencv-c++/CMakeFiles/CMakeScratch/TryCompile-cxle0v/Debug/cmTC_c69d1.lib" /MACHINE:X64  /machine:x64 cmTC_c69d1.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_c69d1.vcxproj -> C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-cxle0v\\Debug\\cmTC_c69d1.exe
+        FinalizeBuildStatus:
+          甇??芷瑼? "cmTC_c69d1.dir\\Debug\\cmTC_c69d1.tlog\\unsuccessfulbuild"??
+          甇?霈???唾? "cmTC_c69d1.dir\\Debug\\cmTC_c69d1.tlog\\cmTC_c69d1.lastbuildstate"??
+        撠? "C:\\Users\\USER\\HK\\opencv-c++\\CMakeFiles\\CMakeScratch\\TryCompile-cxle0v\\cmTC_c69d1.vcxproj" (?身?格?) 撱箇蔭摰???
+        
+        撱箇蔭????
+            0 ?郎??
+            0 ?隤?
+        
+        蝬??? 00:00:00.84
+        
+      exitCode: 0
+...
