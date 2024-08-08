@@ -22,7 +22,7 @@ for filename in os.listdir(input_folder):
         # 保存裁剪后的图片
         cropped_img.save(output_path)
         
-        print(f"裁剪后的图片已保存到: {output_path}")
+        print(f"裁剪后的圖片已保存到: {output_path}")
 
-print("所有图片裁剪完成。")
+print("所有圖片裁剪完成。")
 

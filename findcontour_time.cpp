@@ -66,7 +66,7 @@ ContourMetrics calculate_contour_metrics(const vector<vector<Point>>& contours) 
     return results;
 }
 
-void process_single_image(const string& image_path, const Mat& blurred_bg, vector<vector<Point>>& contours, ContourMetrics& metrics, double& duration) {
+void process_single_image(const string& image_path, const Mat& blurred_bg, vector<vector<Point>>& contours, ContourMetrics& metrics, double& duration, double& findcontour_duration) {
     Mat image = imread(image_path, IMREAD_GRAYSCALE);
     auto start_time = chrono::high_resolution_clock::now();
 
@@ -93,8 +93,12 @@ void process_single_image(const string& image_path, const Mat& blurred_bg, vecto
     dilate(erode1, dilate2, kernel, Point(-1, -1), 1);
 
     vector<Vec4i> hierarchy;
-    
+    auto findcontour_start = chrono::high_resolution_clock::now();
+
     findContours(dilate2, contours, hierarchy, RETR_LIST, CHAIN_APPROX_NONE);
+
+    auto findcontour_end = chrono::high_resolution_clock::now();
+    findcontour_duration = chrono::duration<double, micro>(findcontour_end - findcontour_start).count();
 
     auto end_time = chrono::high_resolution_clock::now();
     duration = chrono::duration<double, micro>(end_time - start_time).count();
@@ -104,7 +108,7 @@ void process_single_image(const string& image_path, const Mat& blurred_bg, vecto
     }
 }
 
-void run_experiment(string directory, vector<tuple<string, double, double, double>>& results, vector<string>& skipped_images, pair<string, double>& max_time_image) {
+void run_experiment(string directory, vector<tuple<string, double, double, double, double>>& results, vector<string>& skipped_images, pair<string, double>& max_time_image) {
     string background_path = directory + "/background.tiff";
     Mat background = imread(background_path, IMREAD_GRAYSCALE);
     if (background.empty()) {
@@ -115,6 +119,7 @@ void run_experiment(string directory, vector<tuple<string, double, double, doubl
     GaussianBlur(background, blurred_bg, Size(5, 5), 0);
 
     atomic<double> total_time(0);
+    atomic<double> total_findcontour_time(0);
     atomic<int> number(0);
     atomic<double> max_process_time(0);
     mutex mtx;
@@ -133,17 +138,19 @@ void run_experiment(string directory, vector<tuple<string, double, double, doubl
                     vector<vector<Point>> contours;
                     ContourMetrics metrics;
                     double process_time;
-                    process_single_image(path.string(), blurred_bg, contours, metrics, process_time);
+                    double findcontour_time;
+                    process_single_image(path.string(), blurred_bg, contours, metrics, process_time, findcontour_time);
 
                     if (process_time > 0) {  // 只處理有效的圖片
                         lock_guard<mutex> lock(mtx);
                         total_time = total_time + process_time;
+                        total_findcontour_time = total_findcontour_time + findcontour_time;
                         if (process_time > max_process_time) {
                             max_process_time = process_time;
                             max_time_image = { path.string(), process_time };
                         }
                         number++;
-                        results.push_back(make_tuple(path.string(), metrics.circularity_ratio, metrics.area_ratio, process_time));
+                        results.push_back(make_tuple(path.string(), metrics.circularity_ratio, metrics.area_ratio, process_time, findcontour_time));
                     } else {
                         lock_guard<mutex> lock(mtx);
                         skipped_images.push_back(path.string());
@@ -167,7 +174,7 @@ void run_experiment(string directory, vector<tuple<string, double, double, doubl
 
 int main() {
     string directory = "Test_images/512x96crop";
-    vector<tuple<string, double, double, double>> results;
+    vector<tuple<string, double, double, double, double>> results;
     vector<string> skipped_images;
     pair<string, double> max_time_image;
 
@@ -180,36 +187,25 @@ int main() {
         cout << "Image: " << path.filename().string() << endl;
         cout << "  Circularity ratio: " << get<1>(result) << ", Area ratio: " << get<2>(result) << endl;
         cout << "  Processing time: " << get<3>(result) << " microseconds" << endl;
+        cout << "  FindContours time: " << get<4>(result) << " microseconds" << endl;
         cout << "\n";
     }
 
     double total_time = 0;
+    double total_findcontour_time = 0;
     for (const auto& result : results) {
         total_time += get<3>(result);
+        total_findcontour_time += get<4>(result);
     }
     double average_time = results.empty() ? 0 : total_time / results.size();
+    double average_findcontour_time = results.empty() ? 0 : total_findcontour_time / results.size();
 
     cout << "\nAverage processing time: " << average_time << " microseconds" << endl;
+    cout << "Average findContours time: " << average_findcontour_time << " microseconds" << endl;
     
     fs::path max_time_path(max_time_image.first);
     cout << "Max processing time: " << max_time_image.second << " microseconds for image: " 
          << max_time_path.filename().string() << endl;
-
-    // 顯示跳過的圖片數量
-    /*cout << "\nNumber of skipped images: " << skipped_images.size() << endl;
-
-    // 如果需要，可以顯示跳過的圖片名稱
-    if (!skipped_images.empty()) {
-        cout << "Skipped images:" << endl;
-        for (const auto& image : skipped_images) {
-            fs::path path(image);
-            cout << path.filename().string() << endl;
-        }
-    }
-
-    // 顯示總處理圖片數量
-    cout << "\nTotal number of images: " << results.size() + skipped_images.size() << endl;
-    cout << "Number of processed images: " << results.size() << endl; */
 
     return 0;
 }

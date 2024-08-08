@@ -121,7 +121,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=thread_num
+CMAKE_PROJECT_NAME:STATIC=findcontour_time_10000
 
 //RC compiler
 CMAKE_RC_COMPILER:FILEPATH=rc
@@ -223,6 +223,42 @@ _tbb_release_dll:FILEPATH=C:/Program Files (x86)/Intel/oneAPI/tbb/latest/bin/tbb
 
 //Path to a library.
 _tbb_release_lib:FILEPATH=C:/Program Files (x86)/Intel/oneAPI/tbb/latest/lib/tbbmalloc_proxy.lib
+
+//Value Computed by CMake
+findcontour_time_10000_BINARY_DIR:STATIC=C:/Users/USER/HK/Future work/build
+
+//Value Computed by CMake
+findcontour_time_10000_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+findcontour_time_10000_SOURCE_DIR:STATIC=C:/Users/USER/HK/Future work
+
+//Value Computed by CMake
+findcontour_time_BINARY_DIR:STATIC=C:/Users/USER/HK/Future work/build
+
+//Value Computed by CMake
+findcontour_time_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+findcontour_time_SOURCE_DIR:STATIC=C:/Users/USER/HK/Future work
+
+//Value Computed by CMake
+findcontour_time_without_filter_BINARY_DIR:STATIC=C:/Users/USER/HK/Future work/build
+
+//Value Computed by CMake
+findcontour_time_without_filter_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+findcontour_time_without_filter_SOURCE_DIR:STATIC=C:/Users/USER/HK/Future work
+
+//Value Computed by CMake
+pixel_test_BINARY_DIR:STATIC=C:/Users/USER/HK/Future work/build
+
+//Value Computed by CMake
+pixel_test_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+pixel_test_SOURCE_DIR:STATIC=C:/Users/USER/HK/Future work
 
 //Value Computed by CMake
 thread_num_BINARY_DIR:STATIC=C:/Users/USER/HK/Future work/build

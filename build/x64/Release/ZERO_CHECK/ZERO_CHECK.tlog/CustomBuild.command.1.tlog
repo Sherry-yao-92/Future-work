@@ -1,6 +1,6 @@
 ^C:\USERS\USER\HK\FUTURE WORK\BUILD\CMAKEFILES\39356FE5A9E97166EADDB7248A9FA0E3\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/USER/HK/Future work" "-BC:/Users/USER/HK/Future work/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/USER/HK/Future work/build/thread_num.sln"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/USER/HK/Future work" "-BC:/Users/USER/HK/Future work/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/USER/HK/Future work/build/findcontour_time_10000.sln"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
